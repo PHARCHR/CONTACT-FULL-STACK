@@ -1,0 +1,64 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    
+}
+
+.contactsPage{
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    padding: 1rem;
+    border-radius:1rem;
+    width:40rem;
+    border:1px solid rgb(120, 228, 58);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:2rem;
+    color:rgb(43, 43, 110);
+    
+    
+}
+.contactsPage:hover{
+    background: rgb(255, 255, 255);
+    
+}
+.contactsPage i.fa-user{
+    font-size:2rem;
+}
+.right{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    font-size: small;
+}
+.info p{
+    margin:0px;
+}
+.icons{
+    display: flex;
+    gap:1rem;
+}
+
+.trash {
+    border: none;
+    background: white;
+}
+.edit{
+    border: none;
+    background: white;
+}
+.trash i.fa-trash-can{
+    font-size:1rem;
+}
+.trash i.fa-trash-can{
+    font-size:1rem;
+}
+.edit i.fa-pen-to-square{
+    font-size:1rem;
+}

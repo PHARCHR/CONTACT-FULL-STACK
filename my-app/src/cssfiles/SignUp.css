@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items horizontally */
+  justify-content: center;
+}
+
+.SignUp {
+  height: 35rem;
+  width: 26rem;
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 7rem;
+  gap: 2rem;
+  border: 2px solid hwb(350 76% 0%);
+}
+.form {
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.form input {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 0.2px solid rgb(180, 176, 176);
+  font-size: small;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form button {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.7rem;
+  border: none;
+  background: hsl(350, 100%, 68%);
+  font-size: medium;
+  color: aliceblue;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form button:hover {
+  background: #da3551;
+  transform: scale(1.06); 
+}
+.form input:hover {
+  border: 1px solid hsl(350, 100%, 68%);
+  transform: scale(1.06); 
+}
+.form input:focus {
+  border-color: hsl(350, 100%, 68%); /* Change border color when focused */
+  outline: none; /* Remove the default outline (optional) */
+}
+.SignUp h1 {
+  color: black;
+}
+.login {
+  color: hsl(350, 100%, 52%);
+}
+.or {
+  color: rgb(158, 147, 147);
+  text-align: center;
+}
+.ors {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.login:hover {
+  color: pink;
+  transform: scale(1.06); 
+}

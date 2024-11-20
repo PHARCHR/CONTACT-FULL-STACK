@@ -1,0 +1,76 @@
+body {
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  display: flex; /* Flexbox layout */
+  align-items: flex-start; /* Center items horizontally */
+}
+.homePage {
+  height: 45rem;
+  width: 38rem;
+  display: flex; /* Flexbox layout */
+  align-items: center;
+  flex-direction: column; /* Center items horizontally */
+  justify-content: center;
+}
+.homePage input {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 1rem;
+  font-size: small;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid rgb(54, 76, 151);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.homePage form button {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  background: rgb(85, 99, 177);
+  border: none;
+  color: #ffffff;
+  font-size: medium;
+  margin-top: 3rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homePage input:hover {
+  border: 2px solid rgb(54, 76, 151);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.001); 
+}
+.homePage input:focus {
+  border: 2px solid rgb(54, 76, 151);
+  outline: none;
+}
+.homePage form button:hover {
+  background: rgb(64, 46, 146);
+  transform: scale(1.06); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.homePage form {
+  border: 1px solid rgb(54, 76, 151);
+  border-radius: 2rem;
+  height: 100%;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.homePage h1 {
+  font-size: 3.4rem;
+  white-space: nowrap;
+}
+.homePage h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+.homePage i.fa-address-book {
+  font-size: 5rem;
+}
