@@ -8,6 +8,7 @@ function HomePage() {
   const [name, setName] = useState("");
   const [number, setNumber] = useState();
   const navigate = useNavigate();
+  //function gets executed on click
   const goToContacts = async(e) => {
     e.preventDefault();
     if (name === "" || number === -1) {
